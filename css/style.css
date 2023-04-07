@@ -1,0 +1,71 @@
+* { 
+	margin:0; padding:0; 
+	box-sizing: border-box;
+}
+
+body {
+margin: 8px auto 0;
+max-width: 800px;
+font-family: 'Genos', sans-serif;
+background-color:#272828;
+}
+img{
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#content{
+    max-width:800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .one{
+    background-color: #fbf972a5;
+    font-size:1.2em;
+    padding:12px;
+  }
+  .one p{
+    text-indent: 50px;
+  }
+  .two{
+    background-color:black;
+    color: #c0c0c0; 
+    padding:12px;
+  }
+  
+  .three{
+    background-color: #fbf972a5;
+    padding:12px;
+  }
+  #va-drinking{
+    border: 5px ridge black;
+    padding: 6px 12px 6px 20px;
+    margin-left: 0.5rem;
+    margin-right:20px;
+    float: right;
+    width: 40%;
+    text-indent:20px;
+  }
+  #va-drinking ul li{
+    list-style:inside;
+    text-indent:20px;
+  }
+  .ptsd{
+    display:inline; 
+    background-color: #fbf972a5;
+  }
+  .close-header{
+    text-align:center;
+    background-image: url("../img/tornado1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+  #before{
+    padding:12px;
+  }
+  #before p{
+    text-indent: 50px;
+  }
