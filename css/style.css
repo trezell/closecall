@@ -28,6 +28,9 @@ img{
   .one p{
     text-indent: 50px;
   }
+  .one h1{
+    text-align: center;
+  }
   .two{
     background-color:black;
     color: #c0c0c0; 
