@@ -33,13 +33,20 @@ img{
   }
   .two{
     background-color:black;
+    font-size:1.2em;
     color: #c0c0c0; 
     padding:12px;
+    background-image: url("/img/tornado2.jpg");
+    background-size:cover;
+  }
+  .two p{
+   background-color: rgba(0,0,0,.5) 
   }
   
   .three{
     background-color: #fbf972a5;
     padding:12px;
+    font-size:1.2em;
   }
   #va-drinking{
     border: 5px ridge black;
@@ -71,4 +78,63 @@ img{
   }
   #before p{
     text-indent: 50px;
+  }
+  /*figure{
+    border: 5px ridge black;
+    float: left;
+    margin-right: 20px;
+  }*/
+  figcaption{
+    text-align: center;
+  }
+  #flick{
+    border: 5px ridge black;
+    float: left;
+    margin-right: 20px;
+  }
+  nav{
+    background-color: #0f0f0f;
+  }
+  nav ul{
+    margin-left:10px;
+    text-align:center;
+  }
+  nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+  }
+  nav ul li a{
+    display: inline-block;
+    padding-right:10px;
+    padding-left:10px;
+    font-size:2.8em;
+  }
+  nav ul li a:link, nav ul li a:visited {
+    text-decoration:none;
+    color:#6c7391;
+  }
+  nav ul li a:hover {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CCC;
+  }
+  .click{
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .click:link, .click a:visited{
+    text-decoration:none;
+    color:#6c7391;
+  }
+  .click:hover {
+    border-width: 3px;
+    border-style: ridge;
+    border-color: #CCC;
+  }
+  #damage{
+    border: 5px ridge black;
+    float: right;
+    margin-right: 20px;
   }
