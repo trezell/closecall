@@ -6,7 +6,7 @@
 body {
 margin: 8px auto 0;
 max-width: 800px;
-font-family: 'Genos', sans-serif;
+font-family: 'Cormorant', serif;
 background-color:#272828;
 }
 img{
@@ -53,9 +53,12 @@ img{
     padding: 6px 12px 6px 20px;
     margin-left: 0.5rem;
     margin-right:20px;
+    margin-top:10px;
     float: right;
     width: 40%;
     text-indent:20px;
+    font-family: 'Cormorant', serif;
+    font-style: italic;
   }
   #va-drinking ul li{
     list-style:inside;
@@ -63,7 +66,11 @@ img{
   }
   .ptsd{
     display:inline; 
-    background-color: #fbf972a5;
+    background-color: #eeeb55a5;
+    font-family: 'Cormorant', serif;
+    font-size:1.2em;
+    padding-left:12px;
+    margin-right:20px;
   }
   .close-header{
     text-align:center;
@@ -78,6 +85,8 @@ img{
   }
   #before p{
     text-indent: 50px;
+    margin-right:20px;
+    margin-left:20px;
   }
   /*figure{
     border: 5px ridge black;
@@ -137,4 +146,31 @@ img{
     border: 5px ridge black;
     float: right;
     margin-right: 20px;
+  }
+  .ending-1{
+    text-indent: 50px;
+    margin-right:20px;
+    margin-left:20px;
+  }
+  .ending-2{
+    text-indent: 50px;
+    margin-right:20px;
+    margin-left:20px;
+  }
+  #guilt{
+    border: 5px ridge black;
+    padding: 6px 12px 6px 20px;
+    margin-left: 0.5rem;
+    margin-right:20px;
+    float: right;
+    width: 40%;
+    text-indent:20px;
+    font-family: 'Cormorant', serif;
+    font-style: italic;
+  }
+  #before{
+    display: inline;
+  }
+  #before h2{
+    text-align: center;
   }
