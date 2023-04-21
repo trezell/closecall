@@ -32,15 +32,11 @@ img{
     text-align: center;
   }
   .two{
-    background-color:black;
+    background-color:#9b908e;
     font-size:1.2em;
-    color: #c0c0c0; 
+    color: black; 
     padding:12px;
-    background-image: url("/img/tornado2.jpg");
-    background-size:cover;
-  }
-  .two p{
-   background-color: rgba(0,0,0,.5) 
+    
   }
   
   .three{
@@ -79,6 +75,7 @@ img{
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    
   }
   #before{
     padding:12px;
@@ -173,4 +170,76 @@ img{
   }
   #before h2{
     text-align: center;
+  }
+  .call-img{
+    display: inline;
+    margin: auto;
+    padding: 0;
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+  .text-her{
+    border: 2px solid #bedede;
+    background-color: #919496;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width:400px;
+  }
+  .text-me{
+    border: 2px solid #ccc;
+    background-color: #458C72;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width:400px;
+    
+  }
+  .time-right {
+    float: right;
+    color: #fff;
+  }
+  .time-left {
+    float: left;
+    color: #fff;
+  }
+  .text-her, .text-me::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .text-her p{
+    color: #fff;
+    background-color: rgba(0,0,0,.5) 
+  }
+  .text-me p{
+    color: #fff;
+    background-color: rgba(0,0,0,.5) 
+  }
+  .call{
+    border: 2px solid #ccc;
+    grid-column: 5 / span 7;
+    grid-row: 1;
+  }
+  .call-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+  }
+  #call{
+    font-size: 1.3em;
+  }
+  #title{
+    font-weight: 900;
+  }
+  .call-2{
+    border: 2px solid #ccc;
+    grid-column: 1 / span 7;
+    grid-row: 1;
+  }
+  .call-img2{
+    display: inline;
+    margin: auto;
+    padding: 0;
+    grid-column: 8 / span 4;
+    grid-row: 1;
   }
