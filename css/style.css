@@ -284,6 +284,27 @@ img{
     margin-top: 2px;
     border: 2px dotted #c0c0c0;
   }
+  #final h2{
+    padding: 6px;
+    text-align: center;
+  }
+  #final p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-indent: 50px;
+  }
+  #foxy{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .aud{
+    text-align: center;
+    border: 3px ridge #c0c0c0;
+    background-color: white;
+  }
+  audio{
+    border: 3px ridge #c0c0c0;
+  }
  /****************************************************************************
 ******************************MEDIA QUERIES**********************************
 ****************************************************************************/
@@ -413,4 +434,23 @@ img{
   #guilt p{
     font-size: 1.1em;
   }
+  #va-drinking{
+    width: 40%;
+    float: left;
+  }
+  .ptsd{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+      "before"
+      "drinking"
+  }
+  #before{
+    grid-area:before;
+  }
+  #va-drinking{
+    grid-area:drinking;
+  }
+  
+
 }
