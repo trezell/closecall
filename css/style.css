@@ -22,7 +22,7 @@ img{
     
   }
   .one{
-    background-color: #c0c0c0;
+    background-color: #9b908e;
     font-size:1.2em;
     padding:12px;
   }
@@ -305,6 +305,12 @@ img{
   audio{
     border: 3px ridge #c0c0c0;
   }
+  #storm{
+    font-size: 1.3em;
+  }
+  #afternoon-ending p{
+    text-indent: 50px;
+  }
  /****************************************************************************
 ******************************MEDIA QUERIES**********************************
 ****************************************************************************/
@@ -335,12 +341,10 @@ img{
   }
   .one p{
     padding: 20px;
-  }
-  #morning-end{
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 }
-/*********************MORNING********************/
+/*********************AFERNOON********************/
 @media screen and (min-width: 768px){
   .f335 h2{
     padding-right: 100px;
@@ -438,19 +442,23 @@ img{
     width: 40%;
     float: left;
   }
-  .ptsd{
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
-      "before"
-      "drinking"
+  #final h2{
+    font-size: 3em;
   }
-  #before{
-    grid-area:before;
+  #final p{
+    font-size: 1.5em;
   }
-  #va-drinking{
-    grid-area:drinking;
+  .aud{
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  
-
+  #foxy img{
+    height:1066.66px;
+    width: 800px;
+    border: 5px ridge #c0c0c0;
+    padding: 6px;
+    background: white;
+  }
 }
